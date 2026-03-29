@@ -1,0 +1,28 @@
+name: defake
+description: DeFake - DeepFake Detection App using MobileNetV2
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  image_picker: ^1.0.7
+  file_picker: ^6.1.1
+  http: ^1.2.0
+  http_parser: ^4.0.2
+  mime: ^1.0.5
+  percent_indicator: ^4.2.3
+  google_fonts: ^6.1.0
+  animate_do: ^3.3.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
